@@ -31,4 +31,4 @@ export const themes = {
     background: '#0d1117',
     backgroundVariant: '#21262d',
   },
-}
+};

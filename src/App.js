@@ -1,13 +1,17 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
+import { Provider } from 'react-redux';
 import { StyleSheet, Text, View } from 'react-native';
+import store from './store';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Hola :sd</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Provider store={store}>
+      <View style={styles.container}>
+        <Text>Starting App</Text>
+        <StatusBar style="auto" />
+      </View>
+    </Provider>
   );
 }
 

@@ -1,4 +1,9 @@
 module.exports = {
-  root: true,
-  extends: 'universe'
+	root: true,
+	env: {
+		browser: true,
+		es6: true,
+		jest: true
+	},
+	extends: 'universe'
 };

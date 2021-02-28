@@ -5,7 +5,7 @@ Expo App to register birds and their families
 ## Tech Stack:
 
 - Expo (React Native)
-- MongoDb for database
+- Firebase (Authentication & Data Storage)
 
 ## Dependencies
 

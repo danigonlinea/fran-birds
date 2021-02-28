@@ -8,7 +8,7 @@ export default function App() {
   return (
     <Provider store={store}>
       <View style={styles.container}>
-        <Text>Starting App</Text>
+        <Text>Starting App!</Text>
         <StatusBar style="auto" />
       </View>
     </Provider>

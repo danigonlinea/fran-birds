@@ -1,3 +1,4 @@
+import { takeLatest } from 'redux-saga/effects';
 import { INIT } from '../actions/types';
 
 function* initial() {

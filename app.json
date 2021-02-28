@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "fran-birds-app",
-    "slug": "fran-birds-app",
-    "version": "1.0.0",
+    "name": "Fran Birds",
+    "slug": "fran-birds",
+    "privacy": "unlisted",   
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./src/assets/icon.png",
     "splash": {
@@ -20,6 +21,8 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.yourcompany.yourappname",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./src/assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
